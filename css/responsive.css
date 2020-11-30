@@ -1,0 +1,91 @@
+@media (max-width: 1199px) {
+  .home-section .home-img {
+    text-align: center;
+  }
+  .home-section .home-img img {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Header Section Start */
+  .header {
+    padding: 5px 0;
+  }
+  .header .navbar-nav {
+    background-color: #ffffff;
+  }
+  .header .navbar #collapsibleNavbar .nav-item .nav-link {
+    padding: 10px 15px 10px;
+  }
+  .header .navbar-light .navbar-toggler {
+    background-color: #ffffff;
+    padding: 0;
+    height: 38px;
+    width: 45px;
+    border: none;
+  }
+  .header .navbar-light .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .header .navbar-light .navbar-toggler-icon {
+    background-image: none;
+    /* মেনু আইকনে bootstrap ক্লাসে একটি ইমেজ ব্যাবহার করা হয়েছে যা বাদ দিয়ে .header .navbar-light .navbar-toggler-icon::before, .header .navbar-light .navbar-toggler-icon::after এর মাধ্যমে মেনু আইকন দেওয়া হয়েছে যার কালার crimson.css ফাইল থেকে নেওয়া হয়েছে।  */
+    height: 2px;
+    width: 24px;
+    position: relative;
+  }
+  .header .navbar-light .navbar-toggler-icon::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    top: -6px;
+  }
+  .header .navbar-light .navbar-toggler-icon::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    top: 6px;
+  }
+  /* Header Section End */
+
+  /* Home Section Star */
+  .home-section .home-img {
+    margin-bottom: 40px;
+  }
+  .home-section {
+    padding: 150px 0 150px;
+  }
+  /* Home Section End */
+}
+
+@media (max-width: 767px) {
+  .home-section .home-content h1 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .home-section .bg-shapes div:nth-child(5) {
+    top: 15%;
+  }
+  .contact-section .contact-form .form-group.small-devices-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .newsletter-section .newsletter-form .btn span {
+    display: none;
+    /* এখানে Subscribe লেখাকে Hide করা হয়েছে।  */
+  }
+}

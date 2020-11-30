@@ -1,0 +1,62 @@
+.header .navbar-light .navbar-toggler-icon::after,
+.header .navbar-light .navbar-toggler-icon::before,
+.header .navbar-light .navbar-toggler-icon,
+.footer,
+.mybtn2,
+.newsletter-section::before,
+.testimonial-section .owl-carousel .owl-nav button.owl-next:hover,
+.testimonial-section .owl-carousel .owl-nav button.owl-prev:hover,
+.testimonial-section::before,
+.products-section .owl-carousel .owl-nav button.owl-next,
+.products-section .owl-carousel .owl-nav button.owl-prev,
+.features-section .features-item:hover,
+.section-title .title::before,
+.home-section,
+.header {
+  background-color: #d70d25;
+}
+
+.footer .footer-social-links a:hover i,
+.contact-section .contact-item h5,
+.contact-section .contact-item .icon i,
+.faq-section .support-text a,
+.testimonial-section .owl-carousel .owl-nav button.owl-next,
+.testimonial-section .owl-carousel .owl-nav button.owl-prev,
+.testimonial-section .client-info h5,
+.products-section .product-content .product-price .new-price,
+.features-section .features-item .icon i,
+.about-section .about-content ul li i,
+.section-title .title,
+.mybtn1:hover,
+.mybtn1 {
+  color: #d70d25;
+}
+
+.contact-section .contact-form .form-control:focus,
+.testimonial-section .client-info img {
+  border-color: #d70d25;
+}
+
+.preloader .loader {
+  border-right: 5px solid #d70d25;
+}
+
+@media (max-width: 991px) {
+  .header .navbar #collapsibleNavbar .nav-item .nav-link {
+    color: #d70d25;
+  }
+}
+
+/* ওয়েবসাইটের যে অংশ গুলোর কালার চেঞ্জ হবে তা crimson.css ফাইলে অ্যাড করতে হবে। যা style.css এর শুরু থেকেই করতে হবে।  */
+
+/* কি কি কালার পরিবর্তন করা হবে তা সিলেক্ট করতে হবে। এই প্রোজেক্টিতে আমরা যেসব কালার ব্যাবহার করেছি তা হলঃ Crimson: #d70d25, Blue: #4948d4, Indigo: #6400ae, Aqua: #05b3b6, Black: #222222 */
+
+/* এরপর প্রতিটি কালারের  জন্য আলাদা আলাদা কালার নামে Css ফাইল করতে হবে যেখানে কালার কোড রিপ্লেস করতে হবে। */
+
+/* index.html <!-- Live style  switcher - demo --> এই কমেন্টে যা করা আছে তা করতে হবে।  */
+
+/* index.html <!-- Live style  switcher - demo start--> এই কমেন্টে যা করা আছে তা করতে হবে।  */
+
+/* এখন <link rel="stylesheet" href="css/styleSwitcher.css"> styleSwitcher.css ফাইল তৈরি করে index.html ফাইলে অ্যাড করা হয়েছে। */
+
+/* এখন <script src="js/styleSwitcher.js"></script> styleSwitcher.js ফাইল তৈরি করে index.html ফাইলে অ্যাড করা হয়েছে। */
